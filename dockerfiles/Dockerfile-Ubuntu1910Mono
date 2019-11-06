@@ -1,0 +1,5 @@
+FROM stefanschmidt1/ci-support-files:Ubuntu1910
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get install -y mono-devel
